@@ -1,0 +1,43 @@
+DROP TABLE IF EXISTS role;
+CREATE TABLE  role (
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  name varchar(45) NOT NULL DEFAULT '',
+ PRIMARY KEY (id)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS users_profiles;
+
+CREATE TABLE  users_profiles (
+  user_id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(32) NOT NULL,
+  password varchar(32) NOT NULL,
+  data_create date NOT NULL DEFAULT '0000-00-00',
+  role_id int(10) unsigned NOT NULL,
+  PRIMARY KEY (user_id)
+  FOREIGN KEY (role_id) 
+        REFERENCES role(id)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE  users_task (
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  name varchar(45) NOT NULL DEFAULT '',
+  description varchar(45) NOT NULL DEFAULT '',
+  prioritet_id int(10) unsigned NOT NULL,
+  data_create date NOT NULL DEFAULT '0000-00-00',
+  data_end date NOT NULL DEFAULT '0000-00-00',
+  PRIMARY KEY (id),
+  FOREIGN KEY (prioritet_id) 
+        REFERENCES prioritet_task(id)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+
+
+CREATE TABLE  users_profiles (
+  user_id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(32) NOT NULL,
+  password varchar(32) NOT NULL,
+  data_create date NOT NULL DEFAULT '0000-00-00',
+  role_id int(10) unsigned NOT NULL,
+  PRIMARY KEY (user_id)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;

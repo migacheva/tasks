@@ -1,0 +1,5 @@
+[08-May-2016 16:39:35 UTC] PHP Parse error:  syntax error, unexpected '?' in Z:\home\migacheva_kp.ru\www\index.php on line 47
+[08-May-2016 16:39:55 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\index.php on line 47
+[08-May-2016 16:40:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\index.php on line 48
+[08-May-2016 16:40:56 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\index.php on line 48
+[14-May-2016 20:26:01 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\index.php on line 54

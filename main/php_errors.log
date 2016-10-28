@@ -1,0 +1,59 @@
+[09-Apr-2016 15:26:17 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. cc7sm2905618lbd.11 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 15
+[09-Apr-2016 15:26:56 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. o10sm2842608lbp.47 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 15
+[09-Apr-2016 15:29:40 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. um4sm2906558lbb.1 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 15
+[09-Apr-2016 15:42:27 UTC] PHP Warning:  mail() expects at least 3 parameters, 2 given in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:43:30 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:43:55 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. k190sm2909842lfb.20 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:44:01 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. e66sm2928532lfg.23 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:44:28 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. h8sm2853138lbd.48 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:45:14 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. dm3sm1086778lbc.27 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:45:56 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. nv8sm2888327lbb.7 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:47:01 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. sa9sm2858538lbb.38 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:47:22 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 530 5.7.0 Must issue a STARTTLS command first. zu6sm2794202lbb.16 - gsmtp in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:48:02 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 503 5.5.4 Error: send AUTH command first. in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:48:49 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 503 5.5.4 Error: send AUTH command first. in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 15:57:43 UTC] PHP Warning:  require_once(Mail.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 5
+[09-Apr-2016 15:57:43 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Mail.php' (include_path='.;C:\php\pear') in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 5
+[09-Apr-2016 15:59:43 UTC] PHP Warning:  require_once(PEAR.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\Mail.php on line 46
+[09-Apr-2016 15:59:43 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR.php' (include_path='.;C:\php\pear') in Z:\home\migacheva_kp.ru\www\main\Mail.php on line 46
+[09-Apr-2016 16:03:01 UTC] PHP Fatal error:  Call to undefined method PEAR_Error::send() in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 20
+[09-Apr-2016 16:04:02 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 503 5.5.4 Error: send AUTH command first. in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 16:20:26 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 503 5.5.4 Error: send AUTH command first. in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 16:22:13 UTC] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 503 5.5.4 Error: send AUTH command first. in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 10
+[09-Apr-2016 17:04:50 UTC] PHP Parse error:  syntax error, unexpected '.' in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 12
+[09-Apr-2016 17:05:01 UTC] PHP Parse error:  syntax error, unexpected ',' in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 12
+[09-Apr-2016 17:05:02 UTC] PHP Parse error:  syntax error, unexpected ',' in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 12
+[09-Apr-2016 17:05:51 UTC] PHP Parse error:  syntax error, unexpected ',' in Z:\home\migacheva_kp.ru\www\main\obr_sv.php on line 12
+[09-Apr-2016 17:49:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\migacheva_kp.ru\www\main\editTask.php:11) in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 23
+[09-Apr-2016 17:50:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\migacheva_kp.ru\www\main\editTask.php:11) in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 24
+[09-Apr-2016 17:51:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\migacheva_kp.ru\www\main\editTask.php:11) in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 24
+[09-Apr-2016 18:28:19 UTC] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 32
+[09-Apr-2016 18:28:54 UTC] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 32
+[09-Apr-2016 18:28:57 UTC] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 32
+[09-Apr-2016 18:29:18 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 32
+[09-Apr-2016 20:17:33 UTC] PHP Parse error:  syntax error, unexpected ':' in Z:\home\migacheva_kp.ru\www\main\update.php on line 10
+[09-Apr-2016 20:23:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\migacheva_kp.ru\www\main\update.php:7) in Z:\home\migacheva_kp.ru\www\main\update.php on line 10
+[09-Apr-2016 20:38:39 UTC] PHP Parse error:  syntax error, unexpected T_STRING in Z:\home\migacheva_kp.ru\www\main\update.php on line 4
+[10-Apr-2016 11:51:58 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in Z:\home\migacheva_kp.ru\www\main\main.php on line 31
+[10-Apr-2016 11:54:56 UTC] PHP Parse error:  syntax error, unexpected '}' in Z:\home\migacheva_kp.ru\www\main\main.php on line 35
+[15-Apr-2016 12:54:32 UTC] PHP Warning:  move_uploaded_file(/path/to/file/koa9k4eJsKk.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[15-Apr-2016 12:54:32 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'Z:\tmp\php51D1.tmp' to '/path/to/file/koa9k4eJsKk.jpg' in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[15-Apr-2016 12:55:57 UTC] PHP Warning:  move_uploaded_file(/img/upload/koa9k4eJsKk.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[15-Apr-2016 12:55:57 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'Z:\tmp\phpA05B.tmp' to '/img/upload/koa9k4eJsKk.jpg' in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[15-Apr-2016 12:56:52 UTC] PHP Warning:  move_uploaded_file(/img/upload/koa9k4eJsKk.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[15-Apr-2016 12:56:52 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'Z:\tmp\php7494.tmp' to '/img/upload/koa9k4eJsKk.jpg' in Z:\home\migacheva_kp.ru\www\main\upload.php on line 17
+[18-Apr-2016 20:44:59 UTC] PHP Parse error:  syntax error, unexpected '<' in Z:\home\migacheva_kp.ru\www\main\editTask.php on line 42
+[08-May-2016 17:46:40 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in Z:\home\migacheva_kp.ru\www\main\test.php on line 9
+[14-May-2016 14:47:00 UTC] PHP Warning:  move_uploaded_file(data/del.png) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in Z:\home\migacheva_kp.ru\www\main\12345.php on line 15
+[14-May-2016 14:47:00 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'Z:\tmp\php8187.tmp' to 'data/del.png' in Z:\home\migacheva_kp.ru\www\main\12345.php on line 15
+[14-May-2016 14:49:28 UTC] PHP Warning:  basename() expects parameter 1 to be string, array given in Z:\home\migacheva_kp.ru\www\main\12345.php on line 12
+[14-May-2016 14:49:28 UTC] PHP Warning:  move_uploaded_file() expects parameter 1 to be string, array given in Z:\home\migacheva_kp.ru\www\main\12345.php on line 15
+[15-May-2016 14:39:27 UTC] PHP Parse error:  syntax error, unexpected '}' in Z:\home\migacheva_kp.ru\www\main\main.php on line 79
+[15-May-2016 14:40:04 UTC] PHP Parse error:  syntax error, unexpected '}' in Z:\home\migacheva_kp.ru\www\main\main.php on line 78
+[15-May-2016 14:40:06 UTC] PHP Parse error:  syntax error, unexpected '}' in Z:\home\migacheva_kp.ru\www\main\main.php on line 78
+[15-May-2016 14:50:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\main\main.php on line 78
+[15-May-2016 14:59:30 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in Z:\home\migacheva_kp.ru\www\main\main.php on line 95
+[30-May-2016 21:13:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in Z:\home\migacheva_kp.ru\www\main\main.php on line 85
+[30-May-2016 21:13:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in Z:\home\migacheva_kp.ru\www\main\main.php on line 85
+[30-May-2016 21:14:57 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in Z:\home\migacheva_kp.ru\www\main\main.php on line 85
+[30-May-2016 21:37:13 UTC] PHP Parse error:  syntax error, unexpected '}' in Z:\home\migacheva_kp.ru\www\main\main.php on line 50

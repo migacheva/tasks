@@ -1,0 +1,32 @@
+create table prioritet_task (
+id int(10) unsigned NOT NULL AUTO_INCREMENT,
+name varchar(45) NOT NULL DEFAULT '',
+ PRIMARY KEY (id)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+CREATE TABLE  users_task (
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  name varchar(45) NOT NULL DEFAULT '',
+  description varchar(45) NOT NULL DEFAULT '',
+  prioritet_id int(10) unsigned NOT NULL,
+  data_create date NOT NULL DEFAULT '0000-00-00',
+  data_end date NOT NULL DEFAULT '0000-00-00',
+  PRIMARY KEY (id),
+  FOREIGN KEY (prioritet_id) 
+        REFERENCES prioritet_task(id)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+CREATE TABLE  users_profiles (
+  user_id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(32) NOT NULL,
+  password varchar(32) NOT NULL,
+  PRIMARY KEY (user_id)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `task`.`prioritet_task` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL DEFAULT '',
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB;

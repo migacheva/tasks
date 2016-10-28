@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Добавление задачи</title>
+ </head>
+ <body>
+ <?php
+    $host="localhost";
+    $user="root";
+    $pass="root"; //установленный вами пароль
+    $db_name="task";
+    $link=mysql_connect($host,$user,$pass);
+    mysql_select_db($db_name,$link);
+	//Если переменная Name передана
+if (isset($_POST["name"])) {
+    //Вставляем данные, подставляя их в запрос
+    $sql = mysql_query("INSERT INTO `users_task` 
+		(`name`, `description`,`prioritet_id`, `data_create`, `data_end`) 
+		VALUES ('".$_POST['name']."','".$_POST['description']."',
+				'".$_POST['prioritet_id']."','".$_POST['data_create']."',
+				'".$_POST['data_end']."')");
+    //Если вставка прошла успешно
+    if ($sql) {
+        echo "<p>Данные успешно добавлены в таблицу.</p>";
+    } else {
+        echo "<p>Произошла ошибка.</p>";
+    }
+}
+?>
+  <form>
+   <fieldset>
+    <legend>Создание новой задачи</legend>
+    Название
+    <p><input name="name" autofocus></p>
+    Описание
+    <p><input name="about"></p>
+    <p>
+        Выбор приоритета
+        <select атрибуты>
+            <option атрибуты> не важные</option>
+            <option атрибуты> средние</option> 
+            <option атрибуты> важные </option>
+			<option атрибуты> очень важные </option>
+			<option атрибуты> критические</option>
+        </select>
+    </p>
+    
+    добавление даты создания / завершения
+    
+    <p><input type="submit" value="Добавить задачу"></p>     
+   </fieldset>
+  </form>
+  <button onclick="location.href='main.php'">Вернуться</button>
+ </body>
+</html>

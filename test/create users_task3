@@ -1,0 +1,37 @@
+DROP TABLE IF EXISTS `task`.`prioritet_task`;
+CREATE TABLE  `task`.`prioritet_task` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `task`.`role`;
+CREATE TABLE  `task`.`role` (
+  `role_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `name` varchar(45) NOT NULL DEFAULT '',
+  PRIMARY KEY (`role_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `task`.`users_profiles`;
+CREATE TABLE  `task`.`users_profiles` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `data_create` date NOT NULL DEFAULT '0000-00-00',
+  `role_id` int(10) unsigned NOT NULL DEFAULT '2',
+  PRIMARY KEY (`user_id`),
+  KEY `FK_role` (`role_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `task`.`users_task`;
+CREATE TABLE  `task`.`users_task` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL DEFAULT '',
+  `description` varchar(4000) NOT NULL DEFAULT '',
+  `prioritet_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `data_create` date NOT NULL DEFAULT '0000-00-00',
+  `data_end` date NOT NULL DEFAULT '0000-00-00',
+  PRIMARY KEY (`id`),
+  KEY `FKprioritet` (`prioritet_id`),
+  CONSTRAINT `FKprioritet` FOREIGN KEY (`prioritet_id`) REFERENCES `prioritet_task` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8;

@@ -1,0 +1,111 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+   body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #333; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   header { /* Верхний блок */
+    /*padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    height: 10%;
+    text-align: center;
+   }
+   
+    #indexstyle { 
+    position: absolute;
+    left: 35%;
+   }  
+   
+   
+    #sidebar { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 20%; /* Ширина колонки */
+    height: 100%;
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+    display: inline-block;
+   }
+   #content { /* средняя колонка */
+    margin: 10px 5px 20px; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+    height: 100%;
+    width: 55%;
+    display: inline-block;
+    float: left;
+   }
+   
+   .bottom{
+        position: fixed; /* Фиксированное положение */
+        left: 1%; bottom: 10%; /* Левый нижний угол */
+   }
+   
+   #ridhtbar{ /* правая колонка*/
+    float: right; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 19%; /* Ширина колонки */
+    height: 100%;
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+    display: inline-block;
+   }
+   
+   #ridhtbar h2, #content h2, #sidebar h2, {text-align: center;}
+   
+   .right { position: absolute; /* для хедера, его кнопки*/
+			    left: 5px;
+				top: 5px;
+          }
+   
+   footer { /* Нижний блок */
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    /*background: #fff; /* Цвет фона */
+    /*color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    height: 10%;
+    text-align: center;
+   }
+   
+   #mainDiv{
+       height: 75%;
+       width: 100%;
+   }
+   
+.centrImg{
+	vertical-align: middle;
+    text-align: center;
+} 
+
+   #centerLayer {
+    position: absolute; /* Абсолютное позиционирование */
+    width: 325px; /* Ширина слоя в пикселах */
+    height: 165px; /* Высота слоя в пикселах */
+    left: 50%; /* Положение слоя от левого края */
+    top: 50%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+    margin-top: -100px;	/* Отступ сверху */
+    /*background: #00FFFF; /* Цвет фона */
+    /*border: solid 1px black; /* Параметры рамки вокруг */
+    /*padding: 10px; /* Поля вокруг текста */
+    /*overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+
+
+
+
+
